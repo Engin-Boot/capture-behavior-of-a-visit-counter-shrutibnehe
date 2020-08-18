@@ -11,4 +11,4 @@ Scenario: Reconcile counts if the sensor is offline for a while
 
   Given :Footfall sensor is up and running
   When  :Sensor goes offline
-  Then  :Store last count,issue cards when offline and take sum of both   
+  Then  :Store last count,issue cards when offline and take sum of both
