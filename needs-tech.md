@@ -3,7 +3,7 @@
 Scenario: Recover across restarts of the server
 that runs the visit-counter
 
-  Given : System(sensor) is running 
+  Given : System(sensor) is running
   When  : Server restarts
   Then  : Alert the technical team and store last visit count
 
